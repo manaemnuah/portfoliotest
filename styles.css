@@ -1,0 +1,200 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+.cover-page {
+    height: 100vh;
+    background: radial-gradient(circle, rgba(255, 236, 179, 1) 0%, rgba(247, 247, 247, 1) 60%, rgba(247, 247, 247, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cover-content h1 {
+    font-size: 4rem;
+    margin: 0;
+    font-weight: 700;  /* Thicker font weight */
+    color: #333;
+}
+
+.cover-content p {
+    font-size: 2rem;
+    margin: 0;
+    font-weight: 600;  /* Thicker font weight */
+    color: #666;
+}
+
+header {
+    background-color: transparent;
+    color: #333;
+    padding: 1rem 0;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #007BFF;
+}
+
+.section-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 4rem 2rem;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.vertical-text {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: 1.5rem;
+    color: #007BFF;
+    font-weight: bold;
+    margin-right: 2rem;
+}
+
+.motto-content,
+.about-content,
+.works-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.motto-content p,
+.about-content p,
+.works-content p {
+    font-size: 1.125rem;
+    color: #555;
+    font-weight: bold;
+    margin: 0;
+}
+
+.about-container .about-content {
+    flex-direction: row;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-image {
+    flex: 0 0 25%;
+    margin-left: 2rem;
+}
+
+.about-image img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+section {
+    padding: 4rem 2rem;
+    margin: 2rem auto;
+    max-width: 900px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #007BFF;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+p {
+    font-size: 1.125rem;
+    color: #555;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.about-list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.about-list li {
+    margin-bottom: 1rem;
+}
+
+.image-hub {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.image-container {
+    margin: 1rem;
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-container img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    background-color: white;
+    color: #333;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Back to Top Button */
+#back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    padding: 1rem;
+    background-color: #007BFF;
+    color: white;
+   [_{{{CITATION{{{_1{](https://github.com/azazelgk12/blog_smk13/tree/611746ed89c926cf87b498cb54dea82119b865f7/resources%2Fviews%2Fuser.blade.php)[_{{{CITATION{{{_2{](https://github.com/satoko-k/practice/tree/3111d03fcf8b083b999e9921d40cc379ae6e946b/index.php)
